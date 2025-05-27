@@ -3986,6 +3986,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 114.3 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f0eac93-3e78-4578-a07a-96500d50df5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 105.2067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TH5"
 		(shape input)
 		(at 167.64 127 180)
