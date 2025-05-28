@@ -3514,16 +3514,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 118.11) (xy 99.06 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be17acf4-b672-4ac4-b24e-5691943dee57")
-	)
-	(wire
-		(pts
 			(xy 113.03 85.09) (xy 115.57 85.09)
 		)
 		(stroke
@@ -6282,72 +6272,6 @@
 			(project "KAPTON HEATER"
 				(path "/7feaf6fb-b480-44b3-9b98-6bc535f879b3"
 					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8b7f4d1-cf31-4bf2-97f9-6e7b31b648b5")
-		(property "Reference" "#PWR05"
-			(at 99.06 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f7ac72e-8e45-4973-9f6c-fa2f899c82c3")
-		)
-		(instances
-			(project "KAPTON HEATER"
-				(path "/7feaf6fb-b480-44b3-9b98-6bc535f879b3"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
