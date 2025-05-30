@@ -788,25 +788,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at -0.6351 1.27 90)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Conn_01x02_Pin"
-				(at 1.9049 1.27 90)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -909,7 +907,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
-					(name "S1"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -927,7 +925,7 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 3.81)
-					(name "S2"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2677,7 +2675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 215.392 106.68 90)
 			(effects
 				(font
@@ -2746,7 +2744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 177.292 106.68 90)
 			(effects
 				(font
@@ -2956,7 +2954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 163.83 87.63 0)
 			(effects
 				(font
@@ -3033,7 +3031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 217.17 87.63 0)
 			(effects
 				(font
@@ -3172,7 +3170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 156.21 87.63 0)
 			(effects
 				(font
@@ -3313,7 +3311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 169.672 106.68 90)
 			(effects
 				(font
@@ -3388,7 +3386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 192.532 106.68 90)
 			(effects
 				(font
@@ -3622,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 201.93 87.63 0)
 			(effects
 				(font
@@ -3693,7 +3691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 186.69 87.63 0)
 			(effects
 				(font
@@ -3762,7 +3760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 207.772 106.68 90)
 			(effects
 				(font
@@ -3832,7 +3830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 179.07 87.63 0)
 			(effects
 				(font
@@ -3907,7 +3905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 162.052 106.68 90)
 			(effects
 				(font
@@ -3982,7 +3980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 200.152 106.68 90)
 			(effects
 				(font
@@ -4052,7 +4050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 171.45 87.63 0)
 			(effects
 				(font
@@ -4273,7 +4271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 154.432 106.68 90)
 			(effects
 				(font
@@ -4417,7 +4415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 194.31 87.63 0)
 			(effects
 				(font
@@ -4487,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "footprints:Thermistor Resistors"
 			(at 184.912 106.68 90)
 			(effects
 				(font
@@ -4557,7 +4555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "footprints:Thermistor"
 			(at 209.55 87.63 0)
 			(effects
 				(font
