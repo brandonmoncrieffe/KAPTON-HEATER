@@ -2386,7 +2386,7 @@
 	)
 	(global_label "TH5"
 		(shape input)
-		(at 185.42 100.33 180)
+		(at 186.69 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2396,7 +2396,7 @@
 		)
 		(uuid "860af25e-fd7c-4cba-b6f4-c8821cb88370")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.9272 100.33 0)
+			(at 180.1972 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
