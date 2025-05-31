@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -187,7 +187,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        1.0,
+        4.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -496,7 +498,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 6.0,
+        "track_width": 4.0,
         "via_diameter": 2.5,
         "via_drill": 1.0
       },
@@ -510,7 +512,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 6.0,
+        "track_width": 4.0,
         "via_diameter": 2.5,
         "via_drill": 1.0
       }
@@ -532,6 +534,14 @@
       {
         "netclass": "24V",
         "pattern": "24VIN"
+      },
+      {
+        "netclass": "24V",
+        "pattern": "/24V"
+      },
+      {
+        "netclass": "24V",
+        "pattern": "/24VIN"
       }
     ]
   },

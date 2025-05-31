@@ -4218,6 +4218,12 @@
 		(uuid "8cfb7a2f-6f58-4d14-998b-1cf632fadc2a")
 	)
 	(junction
+		(at 100.33 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5746856-2617-441c-9e6e-0ab972e6179b")
+	)
+	(junction
 		(at 180.34 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4254,16 +4260,16 @@
 		(uuid "ed089a43-3c7d-473f-b920-c54e2a151cc0")
 	)
 	(no_connect
-		(at 227.33 31.75)
-		(uuid "31e935e9-bd51-47f3-bb25-8387e558fce3")
-	)
-	(no_connect
 		(at 138.43 88.9)
 		(uuid "47269b84-2059-4de8-8ba2-bafff7fbd230")
 	)
 	(no_connect
-		(at 227.33 29.21)
-		(uuid "51118776-bdde-4637-b619-3e3b66355997")
+		(at 201.93 44.45)
+		(uuid "5497fa07-b45b-4161-a841-6cefe65c91b8")
+	)
+	(no_connect
+		(at 201.93 39.37)
+		(uuid "708a835f-cc7b-4519-9c1a-a04228e98e14")
 	)
 	(no_connect
 		(at 138.43 96.52)
@@ -4274,12 +4280,16 @@
 		(uuid "b3509e42-fdb6-4761-8b81-74ecfe2c69ba")
 	)
 	(no_connect
-		(at 227.33 24.13)
-		(uuid "c8114c4f-21e7-4bba-9365-08c13085a653")
+		(at 201.93 36.83)
+		(uuid "c872dbc2-2e4b-48c2-abd5-9c4f889a21b1")
 	)
 	(no_connect
-		(at 227.33 26.67)
-		(uuid "f490c172-619b-4bb5-9e14-fb98b84eb04f")
+		(at 201.93 46.99)
+		(uuid "e7b373f8-0590-4eaa-ba65-75889b9e6f85")
+	)
+	(no_connect
+		(at 201.93 41.91)
+		(uuid "e871d1ff-63a5-4d04-85a4-950088eefa13")
 	)
 	(wire
 		(pts
@@ -4513,6 +4523,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 67.31) (xy 100.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882319db-a091-4e45-8a58-6c804404891f")
+	)
+	(wire
+		(pts
 			(xy 87.63 96.52) (xy 96.52 96.52)
 		)
 		(stroke
@@ -4663,6 +4683,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 67.31) (xy 100.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc73ef06-1e92-4070-83b2-9818feb007ec")
+	)
+	(wire
+		(pts
 			(xy 180.34 77.47) (xy 180.34 74.93)
 		)
 		(stroke
@@ -4713,7 +4743,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 100.33 68.58)
+			(xy 100.33 60.96) (xy 100.33 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4740,6 +4770,16 @@
 			(type default)
 		)
 		(uuid "fc922efd-1a64-4c37-bc06-221ea9b30265")
+	)
+	(label "24VIN2"
+		(at 104.14 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38ed2639-8a9b-412b-a1c6-9cc93d9eeeef")
 	)
 	(label "24VIN"
 		(at 80.01 68.58 0)
@@ -4993,44 +5033,44 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 201.93 46.99 180)
+		(at 227.33 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "42f143ed-360a-42ee-9946-8f1136ccccfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.6467 46.99 0)
+			(at 232.6133 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "TH6"
 		(shape input)
-		(at 201.93 36.83 180)
+		(at 227.33 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4ba0cf41-cbde-42e5-885e-f987e95d3d09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4372 36.83 0)
+			(at 233.8228 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5103,22 +5143,22 @@
 	)
 	(global_label "TH7"
 		(shape input)
-		(at 201.93 39.37 180)
+		(at 227.33 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "582e86f9-e897-4480-bfae-3742d031a2c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4372 39.37 0)
+			(at 233.8228 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5213,22 +5253,22 @@
 	)
 	(global_label "TH9"
 		(shape input)
-		(at 201.93 44.45 180)
+		(at 227.33 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "96cab7ed-2a3f-43e6-bbb4-7090fd80f377")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4372 44.45 0)
+			(at 233.8228 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5389,91 +5429,23 @@
 	)
 	(global_label "TH8"
 		(shape input)
-		(at 201.93 41.91 180)
+		(at 227.33 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f8321a1e-12a2-466f-be27-3381dcc571fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4372 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 227.33 21.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10730a42-b203-4537-b194-97e705356e74")
-		(property "Reference" "#PWR07"
-			(at 233.68 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.5999 19.05 0)
+			(at 233.8228 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cfcc51c-4e57-4b65-9c91-9cb6997a8fb5")
-		)
-		(instances
-			(project "KAPTON-HEATERV2"
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "#PWR07")
-					(unit 1)
-				)
 			)
 		)
 	)
